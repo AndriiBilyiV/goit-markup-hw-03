@@ -1,0 +1,202 @@
+:root {
+  /* Fonts */
+  --logo-font: Raleway, sans-serif;
+  /* Colors */
+  --logo-web-color: #4d5ae5;
+  --logo-studio-dark-color: #2e2f42;
+  --logo-studio-light-color: #f4f4fd;
+  --nav-item-color: #2e2f42;
+  --address-color: #434455;
+  --hero-bg-color: #2e2f42;
+  --light-bg-color: #f4f4fd;
+  --dark-bg-color: #2e2f42;
+  --hero-title-color: #fff;
+  --btn-color: #4d5ae5;
+  --hover-color: #404bbf;
+  --main-text-light-color: #f4f4fd;
+  --title-dark-color: #2e2f42;
+  --main-text-dark-color: #434455;
+}
+/* General */
+.list {
+  list-style: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--main-text-dark-color);
+  background-color: #fff;
+}
+.section-title {
+  color: var(--title-dark-color);
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.btn {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+/* Header */
+
+.logo {
+  font-family: var(--logo-font);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: var(--logo-web-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 1.17;
+}
+.logo-studio {
+  color: var(--logo-studio-dark-color);
+}
+.nav-item {
+  color: var(--nav-item-color);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--hover-color);
+}
+.address {
+  font-style: normal;
+}
+.address-item {
+  color: var(--address-color);
+  line-height: 1.5;
+}
+.address-item:hover,
+.address-item:focus {
+  color: var(--hover-color);
+}
+/* Hero */
+.hero-section {
+  background-color: var(--hero-bg-color);
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: var(--hero-title-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.order-btn {
+  background-color: var(--btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  gap: 10px;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--hover-color);
+}
+/* Our advantages */
+.advantages-titles {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--title-dark-color);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.adventages-descr {
+  font-size: 16px;
+  color: var(--main-text-dark-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* What are we doing */
+/* Our Team */
+.team-section {
+  background-color: var(--light-bg-color);
+}
+.person-div {
+  background-color: #fff;
+  width: 264px;
+}
+.employees {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--title-dark-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.position {
+  line-height: 1.5;
+  text-align: center;
+}
+.footer {
+  background-color: var(--dark-bg-color);
+  width: 1440px;
+  height: 312px;
+}
+.footer > .logo {
+  text-shadow: none;
+}
+.footer .logo-studio {
+  color: var(--main-text-light-color);
+}
+.footer-text {
+  color: var(--logo-studio-light-color);
+}
+
+/* Portfolio */
+.filter-btn {
+  font-family: inherit;
+  background-color: var(--light-bg-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--btn-color);
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-weight: 500;
+  padding: 12px 24px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--hover-color);
+  color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.project-titles {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--title-dark-color);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.project-category {
+  line-height: 1.5;
+  color: var(--main-text-dark-color);
+}
+.project-block {
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+}
+.card-content {
+  padding: 0px 16px;
+  gap: 8px;
+}
