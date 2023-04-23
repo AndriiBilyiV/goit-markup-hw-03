@@ -90,7 +90,6 @@ img {
 .nav-flex {
   display: flex;
   align-items: center;
-
   margin-right: auto;
 }
 .nav-list {
@@ -103,15 +102,18 @@ img {
   align-items: center;
   gap: 40px;
 }
-.nav-item {
+.nat-item {
+  padding: 15px 0;
+}
+.nav-link {
   display: block;
   color: var(--nav-item-color);
   font-weight: 500;
   line-height: 1.5;
   padding: 15px 0;
 }
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--hover-color);
 }
 .address {
@@ -131,10 +133,9 @@ img {
 /* Hero */
 .hero-section {
   background-color: var(--hero-bg-color);
+  padding: 188px 0;
 }
-.hero-container {
-  padding: 188px 316px;
-}
+
 .hero-title {
   display: block;
   margin: 0 auto;
@@ -218,6 +219,7 @@ img {
 .team-list {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .person-div {
   background-color: #fff;
