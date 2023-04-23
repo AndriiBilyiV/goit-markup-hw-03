@@ -46,8 +46,7 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 ul,
@@ -70,8 +69,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 9px;
-  padding-bottom: 9px;
 }
 .logo {
   font-family: var(--logo-font);
@@ -102,15 +99,13 @@ img {
   align-items: center;
   gap: 40px;
 }
-.nat-item {
-  padding: 15px 0;
-}
+
 .nav-link {
   display: block;
   color: var(--nav-item-color);
   font-weight: 500;
   line-height: 1.5;
-  padding: 15px 0;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
