@@ -202,7 +202,6 @@ img {
 }
 .card-photo {
   flex-basis: calc((100%-48px) / 3);
-  border: 1px solid #e7e9fc;
 }
 /* Our Team */
 .team-section {
